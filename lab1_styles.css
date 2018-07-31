@@ -6,6 +6,19 @@ body {
     font-size: 36pt;
     font-family: sans-serif;
     height: 60px;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    text-shadow: 2px 2px #111111;
+}
+
+a:hover {
+    color: red;
+
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -19,11 +32,23 @@ body {
     position: absolute;
     top: 0;
     height: 100%;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
 }
 
 .main-content {
     background: #ffffcc;
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 232px;
+    border:15px solid blue;
+    margin:5px;
+    padding:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
 }
